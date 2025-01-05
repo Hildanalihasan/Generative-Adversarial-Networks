@@ -15,27 +15,3 @@ During training:
 ![GAN Training Process](https://github.com/tensorflow/docs/blob/master/site/en/tutorials/generative/images/gan2.png?raw=1)
 
 This repository also includes animations showing how the generator produces increasingly realistic images over time.
-
-![Sample Output](https://tensorflow.org/images/gan/dcgan.gif)
-
-## Features
-
-- **Dataset**: MNIST handwritten digits.
-- **Key Libraries**: 
-  - TensorFlow
-  - NumPy
-  - Matplotlib
-  - PIL
-  - ImageIO
-  - Glob
-  - IPython
-- **Training Epochs**: Adjustable; example uses 50 epochs.
-
-## Getting Started
-
-### Prerequisites
-
-Install the required libraries:
-
-```bash
-pip install tensorflow numpy matplotlib pillow imageio
